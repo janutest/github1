@@ -7,9 +7,9 @@ on:
   jobs:
     greeting:
       runs-on:Ubuntu-latest
-      steps:
+    steps:
       - Uses:actions/checkout@v3
-      -name: list files
+       -name: list files
         run: ls -ltr
        -name: echo
          run:echo "hello"
