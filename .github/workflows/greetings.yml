@@ -8,9 +8,9 @@ on:
     greeting:
       runs-on:Ubuntu-latest
     steps:
-      - Uses:actions/checkout@v3
-       -name: list files
-          run: ls -ltr
-       -name: echo
-          run: echo "hello"
+      - Uses: actions/checkout@v3
+    
+        run: echo "hello"
+
+          
 
