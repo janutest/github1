@@ -8,7 +8,7 @@ on:
     greeting:
       runs-on:Ubuntu-latest
       steps:
-      - uses:actions/checkout@v3
+      - Uses:actions/checkout@v3
       -name: list files
         run: ls -ltr
        -name: echo
