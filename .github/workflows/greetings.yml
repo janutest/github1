@@ -1,6 +1,6 @@
 name: Greetings
 
- on:
+on:
   push:
     branches:["master"]
     
